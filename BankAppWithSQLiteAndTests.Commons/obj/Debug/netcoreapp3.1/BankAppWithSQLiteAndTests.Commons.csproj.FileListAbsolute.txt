@@ -1,0 +1,9 @@
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.deps.json
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.dll
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.pdb
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.AssemblyInfo.cs
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.dll
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Commons\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.pdb

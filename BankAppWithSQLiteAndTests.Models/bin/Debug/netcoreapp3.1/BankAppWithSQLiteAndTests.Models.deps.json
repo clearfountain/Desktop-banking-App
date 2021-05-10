@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankAppWithSQLiteAndTests.Models/1.0.0": {
+        "dependencies": {
+          "BankAppWithSQLiteAndTests.Commons": "1.0.0"
+        },
+        "runtime": {
+          "BankAppWithSQLiteAndTests.Models.dll": {}
+        }
+      },
+      "BankAppWithSQLiteAndTests.Commons/1.0.0": {
+        "runtime": {
+          "BankAppWithSQLiteAndTests.Commons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAppWithSQLiteAndTests.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankAppWithSQLiteAndTests.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

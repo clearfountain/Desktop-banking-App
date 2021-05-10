@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankAppWithSQLiteAndTests.Interfaces/1.0.0": {
+        "runtime": {
+          "BankAppWithSQLiteAndTests.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAppWithSQLiteAndTests.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

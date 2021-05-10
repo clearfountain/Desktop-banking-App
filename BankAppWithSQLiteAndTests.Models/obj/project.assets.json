@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "BankAppWithSQLiteAndTests.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BankAppWithSQLiteAndTests.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankAppWithSQLiteAndTests.Commons.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BankAppWithSQLiteAndTests.Commons/1.0.0": {
+      "type": "project",
+      "path": "../BankAppWithSQLiteAndTests.Commons/BankAppWithSQLiteAndTests.Commons.csproj",
+      "msbuildProject": "../BankAppWithSQLiteAndTests.Commons/BankAppWithSQLiteAndTests.Commons.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "BankAppWithSQLiteAndTests.Commons >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hp\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Commons\\BankAppWithSQLiteAndTests.Commons.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Commons\\BankAppWithSQLiteAndTests.Commons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
