@@ -55,6 +55,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.depositAmountBtn.TabIndex = 9;
             this.depositAmountBtn.Text = "Enter";
             this.depositAmountBtn.UseVisualStyleBackColor = true;
+            this.depositAmountBtn.Click += new System.EventHandler(this.depositAmountBtn_Click);
             // 
             // label1
             // 
@@ -75,6 +76,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.Controls.Add(this.label1);
             this.Name = "DepositForm";
             this.Text = "Input deposit amount";
+            this.Load += new System.EventHandler(this.DepositForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.depositAmountBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

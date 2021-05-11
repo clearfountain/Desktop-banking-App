@@ -45,6 +45,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.loginBtn.TabIndex = 11;
             this.loginBtn.Text = "Login";
             this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // backToHomePageBtn
             // 
@@ -55,6 +56,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.backToHomePageBtn.TabIndex = 10;
             this.backToHomePageBtn.TabStop = true;
             this.backToHomePageBtn.Text = "Back to home page";
+            this.backToHomePageBtn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.backToHomePageBtn_LinkClicked);
             // 
             // label2
             // 

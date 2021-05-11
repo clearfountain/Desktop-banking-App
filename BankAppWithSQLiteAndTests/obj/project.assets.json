@@ -424,6 +424,19 @@
           "bin/placeholder/BankAppWithSQLiteAndTests.Commons.dll": {}
         }
       },
+      "BankAppWithSQLiteAndTests.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BankAppWithSQLiteAndTests.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankAppWithSQLiteAndTests.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankAppWithSQLiteAndTests.Core.dll": {}
+        }
+      },
       "BankAppWithSQLiteAndTests.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1178,6 +1191,11 @@
       "path": "../BankAppWithSQLiteAndTests.Commons/BankAppWithSQLiteAndTests.Commons.csproj",
       "msbuildProject": "../BankAppWithSQLiteAndTests.Commons/BankAppWithSQLiteAndTests.Commons.csproj"
     },
+    "BankAppWithSQLiteAndTests.Core/1.0.0": {
+      "type": "project",
+      "path": "../BankAppWithSQLiteAndTests.Core/BankAppWithSQLiteAndTests.Core.csproj",
+      "msbuildProject": "../BankAppWithSQLiteAndTests.Core/BankAppWithSQLiteAndTests.Core.csproj"
+    },
     "BankAppWithSQLiteAndTests.Data/1.0.0": {
       "type": "project",
       "path": "../BankAppWithSQLiteAndTests.Data/BankAppWithSQLiteAndTests.Data.csproj",
@@ -1191,6 +1209,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BankAppWithSQLiteAndTests.Core >= 1.0.0",
       "BankAppWithSQLiteAndTests.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5"
     ]
@@ -1227,6 +1246,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Core\\BankAppWithSQLiteAndTests.Core.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Core\\BankAppWithSQLiteAndTests.Core.csproj"
+            },
             "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Data\\BankAppWithSQLiteAndTests.Data.csproj": {
               "projectPath": "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Data\\BankAppWithSQLiteAndTests.Data.csproj"
             }

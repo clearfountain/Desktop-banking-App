@@ -6,15 +6,16 @@ namespace BankAppWithSQLiteAndTests.Models
 {
     public class CurrentAccount : Account
     {
-        public CurrentAccount(int numOfAccounts) : base(numOfAccounts)
+        public CurrentAccount(int newAccountNumber) : base(newAccountNumber)
         {
         }
 
-        public CurrentAccount(string ownerId, decimal bal, int totalNumberOfAccounts) : base(totalNumberOfAccounts)
+        public CurrentAccount(string ownerId, int newAccountNumber) : base(newAccountNumber)
         {
             UserId = ownerId;
-            Balance = bal;
-            AccountType = "savings";
+            AccountType = "current";
+            MinimumBalance = 0.00m;
+            Balance = 0.00m;
         }
     }
 }

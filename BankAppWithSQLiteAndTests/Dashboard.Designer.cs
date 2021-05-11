@@ -64,6 +64,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.transferMoneyBtn.TabIndex = 18;
             this.transferMoneyBtn.Text = "transfer";
             this.transferMoneyBtn.UseVisualStyleBackColor = true;
+            this.transferMoneyBtn.Click += new System.EventHandler(this.transferMoneyBtn_Click);
             // 
             // withdrawBtn
             // 
@@ -73,6 +74,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.withdrawBtn.TabIndex = 17;
             this.withdrawBtn.Text = "withdraw money";
             this.withdrawBtn.UseVisualStyleBackColor = true;
+            this.withdrawBtn.Click += new System.EventHandler(this.withdrawBtn_Click);
             // 
             // depositBtn
             // 
@@ -82,6 +84,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.depositBtn.TabIndex = 16;
             this.depositBtn.Text = "deposit money";
             this.depositBtn.UseVisualStyleBackColor = true;
+            this.depositBtn.Click += new System.EventHandler(this.depositBtn_Click);
             // 
             // createAccountBtn
             // 
@@ -91,6 +94,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.createAccountBtn.TabIndex = 15;
             this.createAccountBtn.Text = "create account";
             this.createAccountBtn.UseVisualStyleBackColor = true;
+            this.createAccountBtn.Click += new System.EventHandler(this.createAccountBtn_Click);
             // 
             // getBalanceBtn
             // 

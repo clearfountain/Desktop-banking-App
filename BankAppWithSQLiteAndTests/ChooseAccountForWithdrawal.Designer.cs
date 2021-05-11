@@ -42,6 +42,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.currentBtn.Text = "current";
             this.currentBtn.UseVisualStyleBackColor = true;
             this.currentBtn.Visible = false;
+            this.currentBtn.Click += new System.EventHandler(this.currentBtn_Click);
             // 
             // savingsBtn
             // 
@@ -52,6 +53,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.savingsBtn.Text = "savings";
             this.savingsBtn.UseVisualStyleBackColor = true;
             this.savingsBtn.Visible = false;
+            this.savingsBtn.Click += new System.EventHandler(this.savingsBtn_Click);
             // 
             // ChooseAccountForWithdrawal
             // 
@@ -62,6 +64,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.Controls.Add(this.savingsBtn);
             this.Name = "ChooseAccountForWithdrawal";
             this.Text = "Choose account to withdraw from";
+            this.Load += new System.EventHandler(this.ChooseAccountForWithdrawal_Load);
             this.ResumeLayout(false);
 
         }

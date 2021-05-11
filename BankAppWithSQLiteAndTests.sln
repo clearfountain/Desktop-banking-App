@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.UI", "BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.UI.csproj", "{493ABBB3-B78E-49BB-BBD6-2BF67FEE2B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAppWithSQLiteAndTests.UI", "BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.UI.csproj", "{493ABBB3-B78E-49BB-BBD6-2BF67FEE2B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.Models", "BankAppWithSQLiteAndTests.Models\BankAppWithSQLiteAndTests.Models.csproj", "{15CC0A86-10C3-441F-9AAC-C4609EC77FC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAppWithSQLiteAndTests.Models", "BankAppWithSQLiteAndTests.Models\BankAppWithSQLiteAndTests.Models.csproj", "{15CC0A86-10C3-441F-9AAC-C4609EC77FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.Data", "BankAppWithSQLiteAndTests.Data\BankAppWithSQLiteAndTests.Data.csproj", "{BC29A14C-8CF7-4D1F-85B0-781F21C91A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAppWithSQLiteAndTests.Data", "BankAppWithSQLiteAndTests.Data\BankAppWithSQLiteAndTests.Data.csproj", "{BC29A14C-8CF7-4D1F-85B0-781F21C91A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.Commons", "BankAppWithSQLiteAndTests.Commons\BankAppWithSQLiteAndTests.Commons.csproj", "{EA30FB89-A460-4C1B-9D87-9B05FA1C4A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAppWithSQLiteAndTests.Commons", "BankAppWithSQLiteAndTests.Commons\BankAppWithSQLiteAndTests.Commons.csproj", "{EA30FB89-A460-4C1B-9D87-9B05FA1C4A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.Core", "BankAppWithSQLiteAndTests.Core\BankAppWithSQLiteAndTests.Core.csproj", "{C341791E-DA2E-4DC4-BFDD-D332D0D89613}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppWithSQLiteAndTests.Interfaces", "BankAppWithSQLiteAndTests.Interfaces\BankAppWithSQLiteAndTests.Interfaces.csproj", "{04A2638B-DCF9-4026-AE0E-42452F28C5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAppWithSQLiteAndTests.Core", "BankAppWithSQLiteAndTests.Core\BankAppWithSQLiteAndTests.Core.csproj", "{C341791E-DA2E-4DC4-BFDD-D332D0D89613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{C341791E-DA2E-4DC4-BFDD-D332D0D89613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C341791E-DA2E-4DC4-BFDD-D332D0D89613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C341791E-DA2E-4DC4-BFDD-D332D0D89613}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04A2638B-DCF9-4026-AE0E-42452F28C5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04A2638B-DCF9-4026-AE0E-42452F28C5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04A2638B-DCF9-4026-AE0E-42452F28C5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04A2638B-DCF9-4026-AE0E-42452F28C5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BankAppWithSQLiteAndTests.UI/1.0.0": {
         "dependencies": {
+          "BankAppWithSQLiteAndTests.Core": "1.0.0",
           "BankAppWithSQLiteAndTests.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5"
         },
@@ -380,6 +381,14 @@
           "BankAppWithSQLiteAndTests.Commons.dll": {}
         }
       },
+      "BankAppWithSQLiteAndTests.Core/1.0.0": {
+        "dependencies": {
+          "BankAppWithSQLiteAndTests.Data": "1.0.0"
+        },
+        "runtime": {
+          "BankAppWithSQLiteAndTests.Core.dll": {}
+        }
+      },
       "BankAppWithSQLiteAndTests.Data/1.0.0": {
         "dependencies": {
           "BankAppWithSQLiteAndTests.Models": "1.0.0",
@@ -623,6 +632,11 @@
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
     },
     "BankAppWithSQLiteAndTests.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankAppWithSQLiteAndTests.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -55,6 +55,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.withdrawalBtn.TabIndex = 11;
             this.withdrawalBtn.Text = "Enter";
             this.withdrawalBtn.UseVisualStyleBackColor = true;
+            this.withdrawalBtn.Click += new System.EventHandler(this.withdrawalBtn_Click);
             // 
             // label1
             // 
@@ -75,6 +76,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.Controls.Add(this.label1);
             this.Name = "WithdrawalForm";
             this.Text = "Amount to withdraw";
+            this.Load += new System.EventHandler(this.WithdrawalForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.withdrawalAmountBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

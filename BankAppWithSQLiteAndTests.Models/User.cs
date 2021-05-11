@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 
+using BankAppWithSQLiteAndTests.Commons;
+
 namespace BankAppWithSQLiteAndTests.Models
 {
     public class User
@@ -11,18 +13,27 @@ namespace BankAppWithSQLiteAndTests.Models
 
         [Required]
         [MaxLength(25)]
-        public string FirstName { get; set; }
+        public string FirstName {
+            get;
+            set;
+        }
 
         [Required]
         [MaxLength(25)]
-        public string LastName { get; set; }
+        public string LastName {
+            get;
+            set;
+        }
 
         [Required]
         [EmailAddress]
         public string Email { get; set; }
 
         [Required]
-        public string Password { get; set; }
+        public string Password {
+            get;
+            set;
+        }
 
         public ICollection<Account> Accounts { get; set; }
 

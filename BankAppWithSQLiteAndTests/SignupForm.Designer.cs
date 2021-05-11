@@ -56,6 +56,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.signupBtn.TabIndex = 29;
             this.signupBtn.Text = "Signup";
             this.signupBtn.UseVisualStyleBackColor = true;
+            this.signupBtn.Click += new System.EventHandler(this.signupBtn_Click);
             // 
             // backToHomeLabel
             // 
@@ -66,6 +67,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.backToHomeLabel.TabIndex = 28;
             this.backToHomeLabel.TabStop = true;
             this.backToHomeLabel.Text = "Back to home page";
+            this.backToHomeLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.backToHomeLabel_LinkClicked);
             // 
             // label6
             // 

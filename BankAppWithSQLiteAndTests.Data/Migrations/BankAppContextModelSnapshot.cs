@@ -3,16 +3,14 @@ using System;
 using BankAppWithSQLiteAndTests.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BankAppWithSQLiteAndTests.Data.Migrations
 {
-    [DbContext(typeof(AppContext))]
-    [Migration("20210510071743_Initial")]
-    partial class Initial
+    [DbContext(typeof(BankAppContext))]
+    partial class BankAppContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -20,6 +18,9 @@ namespace BankAppWithSQLiteAndTests.Data.Migrations
 
             modelBuilder.Entity("BankAppWithSQLiteAndTests.Models.Account", b =>
                 {
+                    b.Property<string>("AccountId")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("AccountNumber")
                         .HasMaxLength(10)
                         .HasColumnType("TEXT");
@@ -38,7 +39,7 @@ namespace BankAppWithSQLiteAndTests.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("AccountNumber");
+                    b.HasKey("AccountId");
 
                     b.HasIndex("UserId");
 

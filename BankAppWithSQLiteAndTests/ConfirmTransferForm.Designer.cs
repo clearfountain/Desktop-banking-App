@@ -41,6 +41,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.confirmTransferBtn.TabIndex = 3;
             this.confirmTransferBtn.Text = "Confirm transfer";
             this.confirmTransferBtn.UseVisualStyleBackColor = true;
+            this.confirmTransferBtn.Click += new System.EventHandler(this.confirmTransferBtn_Click);
             // 
             // label1
             // 
@@ -60,6 +61,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.Controls.Add(this.label1);
             this.Name = "ConfirmTransferForm";
             this.Text = "Confirm transfer";
+            this.Load += new System.EventHandler(this.ConfirmTransferForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

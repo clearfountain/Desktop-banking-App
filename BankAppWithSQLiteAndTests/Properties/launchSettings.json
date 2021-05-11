@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BankAppWithSQLiteAndTests.UI": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests"
+    }
+  }
+}

@@ -46,6 +46,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.button1.TabIndex = 9;
             this.button1.Text = "Transfer";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -60,19 +61,20 @@ namespace BankAppWithSQLiteAndTests.UI
             // 
             this.amountToTransferTextbox.Location = new System.Drawing.Point(109, 252);
             this.amountToTransferTextbox.Maximum = new decimal(new int[] {
-            2000000,
+            5000000,
             0,
             0,
             0});
             this.amountToTransferTextbox.Name = "amountToTransferTextbox";
             this.amountToTransferTextbox.Size = new System.Drawing.Size(180, 31);
             this.amountToTransferTextbox.TabIndex = 7;
+            this.amountToTransferTextbox.ValueChanged += new System.EventHandler(this.amountToTransferTextbox_ValueChanged);
             // 
             // accountNumberTextbox
             // 
             this.accountNumberTextbox.Location = new System.Drawing.Point(109, 138);
             this.accountNumberTextbox.Maximum = new decimal(new int[] {
-            4000000,
+            5000000,
             0,
             0,
             0});
@@ -101,6 +103,7 @@ namespace BankAppWithSQLiteAndTests.UI
             this.Controls.Add(this.label1);
             this.Name = "TransferForm";
             this.Text = "Enter transfer details";
+            this.Load += new System.EventHandler(this.TransferForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.amountToTransferTextbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountNumberTextbox)).EndInit();
             this.ResumeLayout(false);

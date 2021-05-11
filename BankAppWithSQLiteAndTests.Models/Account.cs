@@ -10,6 +10,8 @@ namespace BankAppWithSQLiteAndTests.Models
         //private readonly long AccountNumberSeed = 4_531_000_000;
 
         [Key]
+        public string AccountId { get; set; }
+
         [MaxLength(10)]
         public string AccountNumber { get; set; }
 
@@ -35,13 +37,16 @@ namespace BankAppWithSQLiteAndTests.Models
         public Account(int newAccountNumber)
         {
             AccountNumber = newAccountNumber.ToString();
+            AccountId = Guid.NewGuid().ToString();
         }
 
         //Constructor with parameters and chaining
-        public Account(string ownerId, int totalNumberOfAccounts) : this(totalNumberOfAccounts)
+        public Account(string ownerId, int newAccountNumber) : this(newAccountNumber)
         {
             UserId = ownerId;
             AccountType = "savings";
+            MinimumBalance = 1000.00m;
+            Balance = 1000.00m;
         }
     }
 }

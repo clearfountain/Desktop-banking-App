@@ -1,9 +1,16 @@
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.deps.json
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.dll
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.pdb
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.dll
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Data.dll
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Models.dll
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Data.pdb
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Commons.pdb
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\bin\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Models.pdb
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.csprojAssemblyReference.cache
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.AssemblyInfo.cs
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.csproj.CopyComplete
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.dll
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Core\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.Core.pdb

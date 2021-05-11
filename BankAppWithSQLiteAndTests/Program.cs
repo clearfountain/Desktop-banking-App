@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BankAppWithSQLiteAndTests.UI;
+using BankAppWithSQLiteAndTests.Core;
+
 namespace BankAppWithSQLiteAndTests
 {
     static class Program
@@ -17,7 +20,12 @@ namespace BankAppWithSQLiteAndTests
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChooseAccountForDeposit());
+
+            GlobalConfig.AddInstances();
+
+            var homeForm = new Home();
+
+            Application.Run(homeForm);
         }
     }
 }
