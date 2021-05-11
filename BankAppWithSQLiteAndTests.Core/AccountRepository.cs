@@ -46,41 +46,54 @@ namespace BankAppWithSQLiteAndTests.Core
         public string RegisterNewAccount(string ownerId, string type)
         {
             bool newAccRegistered = true;
+            string retMessage = "";
             string newAccountNumber = "";
-            int newAccNumber = GenerateAccountNumber();
+            int newAccNumber = 0;
 
-            if(type == "savings")
+            if( (type != "savings" ) && (type != "current"))
             {
-                Account newAcc = new Account(ownerId, newAccNumber);
-                newAccountNumber = newAcc.AccountNumber;
-                /*try
-                {*/
-                _ctx.Accounts.Add(newAcc);
-                    newAccRegistered = true;
-                //}
-                /*catch (Exception)
-                {
-                    newAccRegistered = false;
-                }*/
-
-            }
-            if (type == "current")
-            {
-                CurrentAccount newCurrAcc = new CurrentAccount(ownerId, newAccNumber);
-                newAccountNumber = newCurrAcc.AccountNumber;
-
-                //try
-                //{
-                _ctx.Accounts.Add(newCurrAcc);
-                    newAccRegistered = true;
-                /*}
-                catch (Exception)
-                {
-                    newAccRegistered = false;
-                }*/
+                retMessage = "InvalidAccountType";
             }
 
-            return newAccNumber.ToString();
+            else
+            {
+                newAccNumber = GenerateAccountNumber();
+
+                if (type == "savings")
+                {
+                    Account newAcc = new Account(ownerId, newAccNumber);
+                    newAccountNumber = newAcc.AccountNumber;
+                    /*try
+                    {*/
+                    _ctx.Accounts.Add(newAcc);
+                    newAccRegistered = true;
+                    //}
+                    /*catch (Exception)
+                    {
+                        newAccRegistered = false;
+                    }*/
+
+                }
+                if (type == "current")
+                {
+                    CurrentAccount newCurrAcc = new CurrentAccount(ownerId, newAccNumber);
+                    newAccountNumber = newCurrAcc.AccountNumber;
+
+                    //try
+                    //{
+                    _ctx.Accounts.Add(newCurrAcc);
+                    newAccRegistered = true;
+                    /*}
+                    catch (Exception)
+                    {
+                        newAccRegistered = false;
+                    }*/
+                }
+                retMessage = newAccNumber.ToString();
+            }
+            
+
+            return retMessage;
             //return newAccRegistered;
         }
 
@@ -100,7 +113,7 @@ namespace BankAppWithSQLiteAndTests.Core
 
         public string GetUserIdFromEmail(string email)
         {
-            string userId = "";
+            string userId = null;
 
             userId = (from u in _ctx.Users
                           where u.Email == email

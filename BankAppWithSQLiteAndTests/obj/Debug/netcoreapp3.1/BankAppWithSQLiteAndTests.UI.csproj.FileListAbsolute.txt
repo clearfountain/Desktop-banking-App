@@ -75,3 +75,4 @@ C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests\obj
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.UI.dll
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.UI.pdb
 C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests\obj\Debug\netcoreapp3.1\BankAppWithSQLiteAndTests.UI.genruntimeconfig.cache
+C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll

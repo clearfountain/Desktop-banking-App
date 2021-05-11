@@ -18,17 +18,9 @@ namespace BankAppWithSQLiteAndTests.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            
-            //optionsBuilder.UseSqlite(@"Data Source = WinformBankAppDB.db");
-            //optionsBuilder.UseSqlite(@"Data Source = WinformBankAppDB.db");
-            optionsBuilder.UseSqlite("Data Source = WinformBankAppDB.db");
-            //optionsBuilder.UseSqlite(@"Data Source = C:\Users\hp\source\repos\BankAppWithSQLiteAndTests\BankAppWithSQLiteAndTests.Data\WinformBankAppDB.db");
+            //optionsBuilder.UseSqlite("Data Source = WinformBankAppDB.db");
+            optionsBuilder.UseInMemoryDatabase("TempDB");
         }
 
-        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Account>()
-                .Property(p => p. )
-        }*/
     }
 }

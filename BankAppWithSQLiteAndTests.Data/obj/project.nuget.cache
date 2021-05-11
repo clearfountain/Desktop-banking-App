@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CvFkULTIkG4/2MyqABMzxb2sUWY59ivmtwcDnSyoQz3apZED2P0DOz+I70VWhuK+4yDzwPnH8+KKtZHup8r8PQ==",
+  "dgSpecHash": "EbBGMt/opJOzNBBem7nV0SXKkHvcXUYeoCQfkU1ppP7zT5FuTZhZxyMjOtmqXOMtJOSFPSoEXCGT+UZQCAgdHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\source\\repos\\BankAppWithSQLiteAndTests\\BankAppWithSQLiteAndTests.Data\\BankAppWithSQLiteAndTests.Data.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,11 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.6\\microsoft.entityframeworkcore.analyzers.5.0.6.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.5\\microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.6\\microsoft.entityframeworkcore.inmemory.5.0.6.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.5\\microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.5\\microsoft.entityframeworkcore.sqlite.5.0.5.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.5\\microsoft.entityframeworkcore.sqlite.core.5.0.5.nupkg.sha512",
